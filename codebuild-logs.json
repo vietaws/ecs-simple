@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "codebuild:CreateReportGroup",
+                "codebuild:CreateReport",
+                "logs:CreateLogStream",
+                "codebuild:UpdateReport",
+                "codebuild:BatchPutCodeCoverages",
+                "codecommit:GitPull",
+                "logs:CreateLogGroup",
+                "logs:PutLogEvents",
+                "codebuild:BatchPutTestCases"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
